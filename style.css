@@ -1,0 +1,297 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    min-width: 100wh;
+    min-height: 100vh;
+    background-image: url("bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_container{
+    height:70px;
+    width:450px;
+    background-color: rgb(134, 121, 121);  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+}
+h1{
+    text-align: center;
+    text-transform:uppercase;
+    color: antiquewhite; 
+}
+
+
+/* <!-- text_section1 start--> */
+
+.main_container{
+    height:300px;
+    width:100%;
+    background-color: rgb(134, 121, 121); 
+    padding:30px;
+    background-attachment: fixed;
+}
+#heading{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#paragraph{
+    font-size: 20px;
+    color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* <!-- image_section2 start--> */
+
+.container1{
+    min-width: 100wh;
+    min-height: 70vh;
+    background-image: url("bgimage1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_container1{
+    height:150px;
+    width:650px;
+    background-color: rgb(134, 121, 121);  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+#h1{
+    text-align: center;
+    text-transform:uppercase;
+    color: antiquewhite; 
+}
+
+/* <!-- image_section3 start--> */
+#h4{
+    color:antiquewhite;
+    font-size: 50px;
+}
+.container2{
+    min-width: 100wh;
+    min-height: 70vh;
+    background-image: url("bgimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#h5{
+    color:antiquewhite;
+    font-size: 50px;
+}
+/* <!-- image_section4 start--> */
+.container3{
+    min-width: 100wh;
+    min-height: 70vh;
+    background-image: url("bgimage3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* <!-- image_section5 start--> */
+.container4{
+    min-width: 100wh;
+    min-height: 100vh;
+    background-image: url("bgimage5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* <!-- text_section2/4 start--> */
+
+.main_container1{
+    height:300px;
+    width:100%;
+    background-color: whitesmoke;
+    padding:30px;
+    background-attachment: fixed;
+}
+#head{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:rgb(134, 121, 121); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#para{
+    font-size: 20px;
+    color:rgb(134, 121, 121); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+@media screen and (max-width:540px) {
+
+    .container{
+        min-width: 100wh;
+        min-height: 100vh;
+        background-image: url("smallbgimage.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        background-attachment: fixed;
+        display:flex;
+        justify-content: center;
+       justify-items: flex-start;
+    } 
+    .text_container{
+        height:30px;
+        width:250px;
+        background-color: rgb(134, 121, 121);  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8;
+        margin-left: -50px;
+    }
+    h1{
+        font-size: small;
+        text-align: center;
+        text-transform:uppercase;
+        color: antiquewhite; 
+        word-spacing: 20px;
+    }
+
+    /* <!-- text_section1 start--> */
+
+.main_container{
+    height:200px;
+    width:80%;
+    background-color: rgb(134, 121, 121); 
+    padding:30px;
+    background-attachment: fixed;
+}
+#heading{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#paragraph{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    font-size: 32px;
+    color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* <!-- image_section2 start--> */
+
+.container1{
+    min-width: 100wh;
+    min-height: 70vh;
+    background-image: url("bgimage1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.text_container1{
+    height:40px;
+    width:200px;
+    background-color: rgb(134, 121, 121);  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    margin-left: -50px;
+}
+#h1{
+    text-align: center;
+    text-transform:uppercase;
+    color: antiquewhite; 
+}
+
+
+/* <!-- text_section2/4 start--> */
+
+.main_container1{
+    height:200px;
+    width:80%;
+    background-color: whitesmoke;
+    padding:30px;
+    background-attachment: fixed;
+}
+#head{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:rgb(134, 121, 121); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#para{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    font-size: 40px;
+    color:rgb(134, 121, 121); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* <!-- image_section3 start--> */
+#h4{
+    color:antiquewhite;
+    font-size: 19px;
+    margin-left: -75px;
+    
+}
+.container2{
+    min-width: 100wh;
+    min-height: 70vh;
+    background-image: url("smallbgimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#h5{
+    color:antiquewhite;
+    font-size: 15px;
+    margin-left: -75px;   
+}
+}
